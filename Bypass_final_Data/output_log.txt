@@ -1,0 +1,37 @@
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 24.20.13019.1008]
+    Renderer: Radeon (TM) RX 480 Graphics
+    Vendor:   ATI
+    VRAM:     3072 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+desktop: 1920x1080 59Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 3.5.3f3
+Begin MonoManager ReloadAssembly
+Platform assembly: I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.092 seconds
+Platform assembly: I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: I:\Desktop Backup 2017-04-01\Downloads\bypass\Bypass\Bypass_final_Data\Managed\System.dll (this message is harmless)
+ArgumentException: You can only call GUI functions from inside OnGUI.
+  at UnityEngine.GUIUtility.CheckOnGUI () [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.Button (Rect position, UnityEngine.GUIContent content, UnityEngine.GUIStyle style) [0x00000] in <filename unknown>:0 
+  at UnityEngine.GUI.Button (Rect position, UnityEngine.Texture image) [0x00000] in <filename unknown>:0 
+  at MainMenu+$theFirstMenu$132+$.MoveNext () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 283. Operation took 9.441400 ms.
